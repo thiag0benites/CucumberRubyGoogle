@@ -14,10 +14,10 @@ Funcionalidade: Testes basicos no google
 
     Cenarios: 
       | browser | pesquisa |
-      | firefox | Arnaldo  |
-      | firefox | Ivanete  |
-    #  | Thiago   |
-    #  | Amanda   |
-    #   | Camila   |
-    #   | Arthur   |
-    #   | Lívia    |
+      | chrome  | Thiago   |
+      | chrome  | Lívia    |
+      | chrome  | Amanda   |
+      | chrome  | Arthur   |
+      | chrome  | Ivanete  |
+      | chrome  | Arnaldo  |
+      | chrome  | Camila   |
