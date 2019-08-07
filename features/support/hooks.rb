@@ -5,6 +5,9 @@ After do |scenario|
     #if scenario.failed?
      #   add_browser_logs
     #end
+
+    # Fechar browser a cada execução
+    Capybara.current_session.driver.quit
  end
 
  def add_screenshot(scenario)

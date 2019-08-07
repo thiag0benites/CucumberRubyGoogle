@@ -7,17 +7,17 @@ Funcionalidade: Testes basicos no google
   De modo que obtenha resultados
 
   Esquema do Cenario: CT01_busca_google
-    Dado que acesso o google pelo
+    Dado que acesso o google pelo "<browser>"
     E que digito o valor "<pesquisa>"
     Quando realizo a busca
     Entao apresenta a lista de resultados
 
     Cenarios: 
-      | pesquisa |
-      | Arnaldo  |
-      | Ivanete  |
-      | Thiago   |
-      | Amanda   |
-      | Camila   |
-      | Arthur   |
-      | Lívia    |
+      | browser | pesquisa |
+      | firefox | Arnaldo  |
+      | firefox | Ivanete  |
+    #  | Thiago   |
+    #  | Amanda   |
+    #   | Camila   |
+    #   | Arthur   |
+    #   | Lívia    |

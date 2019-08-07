@@ -1,6 +1,17 @@
-Dado("que acesso o google pelo") do
+Dado("que acesso o google pelo {string}") do |browser|
+    # case browser
+    #     when 'chrome'
+    #         Capybara.current_driver = :selenium_chrome
+    #     # when 'firefox'
+    #     #     Capybara.current_driver = :selenium_firefox
+    # end
+
     visit 'https://google.com'
 end
+
+# Dado("que acesso o google pelo") do
+#     visit 'https://google.com'
+# end
 
 Dado("que digito o valor {string}") do |find_value|
     fill_in 'q', with: find_value

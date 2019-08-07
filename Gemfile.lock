@@ -20,6 +20,7 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
+    cliver (0.3.2)
     cucumber (3.1.2)
       builder (>= 2.1.2)
       cucumber-core (~> 3.2.0)
@@ -37,6 +38,8 @@ GEM
     cucumber-tag_expressions (1.1.1)
     cucumber-wire (0.0.1)
     diff-lcs (1.3)
+    geckodriver-helper (0.24.0)
+      archive-zip (~> 0.7)
     gherkin (5.1.0)
     io-like (0.3.0)
     json (2.2.0)
@@ -46,6 +49,10 @@ GEM
     multi_test (0.1.2)
     nokogiri (1.10.3-x64-mingw32)
       mini_portile2 (~> 2.4.0)
+    poltergeist (1.18.1)
+      capybara (>= 2.1, < 4)
+      cliver (~> 0.3.1)
+      websocket-driver (>= 0.2.0)
     public_suffix (3.1.1)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -58,6 +65,9 @@ GEM
     selenium-webdriver (3.142.3)
       childprocess (>= 0.5, < 2.0)
       rubyzip (~> 1.2, >= 1.2.2)
+    websocket-driver (0.7.1)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.4)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
@@ -68,6 +78,8 @@ DEPENDENCIES
   capybara
   chromedriver-helper
   cucumber
+  geckodriver-helper
+  poltergeist
   report_builder
   selenium-webdriver
 
